@@ -22,7 +22,7 @@
 import matplotlib.pyplot as plt
 from math import *
 from scipy.integrate import quad
-from rectangle import left_rect, right_rect, central_rect, trapezoid, parabola
+from methods import left_rect, right_rect, central_rect, trapezoid, parabola
 
 
 def f(x):
