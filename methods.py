@@ -1,7 +1,3 @@
-from math import*
-from scipy.integrate import quad
-
-
 def left_rect(f, a, b, step, arr, ilf):
     il = 0
     while a <= (b - step):   # проход по всем прямоугольникам с точкой с левой стороны прямоугольника
